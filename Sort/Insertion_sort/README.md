@@ -1,7 +1,5 @@
-# Algorithms
+# Insert Sort
 
-This repository contains the algorithms based on Thomas H. Cormen et all Book for my reference.
+Este codigo executa a ordenacao por insercao. solucao analogo ao ordenacao de cartas.
 
-The codes are going to be written in Python. 
-
-Θ (teta)
+Tempo de execuçao de pior caso he Θ(n^2)
