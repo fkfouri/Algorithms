@@ -4,3 +4,4 @@ This repository contains the algorithms based on Thomas H. Cormen et all Book fo
 
 The codes are going to be written in Python. 
 
+Θ (teta)
