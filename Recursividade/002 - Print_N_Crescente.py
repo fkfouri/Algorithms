@@ -8,6 +8,6 @@ def printN(n):
     print(n)
 
 #Base
-printN(1)
+printN(10)
 
 #printN(8)
