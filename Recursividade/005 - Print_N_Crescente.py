@@ -1,5 +1,5 @@
 '''
-Imprimir n primeiros numeros naturais em ordem decrescente
+Imprimir n primeiros numeros naturais em ordem crescente
 '''
 
 def printN(n):
