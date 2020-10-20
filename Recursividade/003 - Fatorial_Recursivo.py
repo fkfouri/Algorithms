@@ -2,6 +2,11 @@
 Algoritimo recursivo de Calculo Fatorial
 Pode gerar problema de stackoverflow para numero muito alto
 
+Em termos de complexidade espaco de memoria ocupa Ɵ(n), cresce desvido o uso de empilhamento.
+
+Em termos de complexidade de tempo eh Ɵ(n), mas com fator multiplicativo alto, pois possui os custos envolvidos 
+de empilhamento/desempilhamento, tornando-o mais lento que o Fatorial_Iterativo
+
 '''
 
 def fat(n):
