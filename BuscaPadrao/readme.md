@@ -12,9 +12,10 @@ Exemplos de padrões:
 - DNA {A, C, G, T}
 
 **T** -> Texto -> tamanho **m**
+
 **P** -> Palavra -> tamanho **n**
 
-Busca de ocorrencias de **P** em **T**, para iso se supoe com **n>m**.
+Busca de ocorrencias de **P** em **T**, para iso se supõe-se que **n > m**.
 
 ## Prefixo e Sufixo
 
