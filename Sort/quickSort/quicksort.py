@@ -54,3 +54,9 @@ start = 0
 end = len(list)-1
 quicksort2(list,start,end)
 print (' '.join(map(str,list)))
+
+list = [4, 3, 6 ,9, 2,4,3,1,2,1,4,9,3,5,6]
+start = 0
+end = len(list)-1
+quicksort(list,start,end)
+print (' '.join(map(str,list)))

@@ -1,7 +1,7 @@
 
 
 def printComparacoes(numero, text):
-    print(numero, 'é o numero de comparacoes em:', '"' + text +'"')
+    print('\n'+ str(numero), 'é o numero de comparacoes em:', '"' + text +'"')
 
 ###
 # A funcao Falha gasta o tempo de Ɵ(m)
@@ -77,4 +77,12 @@ print(BoyerMooreMatch(texto, palavra))
 
 texto = "vi na mata uma arara e duas aranhas"
 palavra = "araras"
+print(BoyerMooreMatch(texto, palavra))
+
+texto = "faturei com folga na prova de complexidade de algoritimo"
+palavra = "algo"
+print(BoyerMooreMatch(texto, palavra))
+
+texto = "esta prova e mais longa que complicada"
+palavra = "cada"
 print(BoyerMooreMatch(texto, palavra))

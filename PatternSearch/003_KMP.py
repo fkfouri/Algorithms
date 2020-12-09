@@ -1,6 +1,7 @@
 
 
-
+def printComparacoes(numero, text):
+    print('\n'+ str(numero), 'é o numero de comparacoes em:', '"' + text +'"')
 
 ###
 # A funcao Falha gasta o tempo de Ɵ(m)
@@ -28,9 +29,6 @@ def FailureFunction(P):
 
     return F
 
-
-def printComparacoes(numero, text):
-    print(numero, 'é o numero de comparacoes em:', '"' + text +'"')
 
 def KMPMatch(T, P):
     F = FailureFunction(P)              #gasta tempo Ɵ(m)
@@ -88,4 +86,12 @@ print(KMPMatch(texto, palavra))
 
 texto = "esta prova e mais longa que complicada"
 palavra = "cada"
+print(KMPMatch(texto, palavra))
+
+texto = "vi na mata uma arara e duas aranhas"
+palavra = "arara"
+print(KMPMatch(texto, palavra))
+
+texto = "doce de batata doce"
+palavra = "doce"
 print(KMPMatch(texto, palavra))
